@@ -24,7 +24,7 @@ pipeline {
            }
            stage ('Deploy to prod') {
              steps {
-               sh "cp **/target/*.war /home/ivan/programms/tomcat-prod/webapps"
+               sh "cp **/target/*.war /ProgramData/Tomcat-prod/apache-tomcat-9.0.78/webapps"
              }     
            }
          }
